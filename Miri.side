@@ -1,0 +1,209 @@
+{
+  "id": "1be6f006-f908-4ccc-844f-d358a485834c",
+  "version": "2.0",
+  "name": "Miri",
+  "url": "https://www.walla.co.il",
+  "tests": [{
+    "id": "af39cfee-9f38-46fe-9eab-f6df524639b2",
+    "name": "Walla",
+    "commands": [{
+      "id": "58befd1b-c44b-4bcc-beb9-84e23d4bfe74",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d90ba27-58fb-4eef-b88a-713d705e7cea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "570x310",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a9f4526-4100-42c9-b0af-0cf01874fc6e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84a54773-76bf-462c-8b29-a6240a9a354d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9140198-0d2f-4b95-aa2a-c2c0dda3a46e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a73faed6-5190-4f27-9762-a84892d8575e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "442da5e2-38c0-491a-b3da-bdb4f28778f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=כסף",
+      "targets": [
+        ["linkText=כסף", "linkText"],
+        ["css=.color-3", "css:finder"],
+        ["xpath=//a[contains(text(),'כסף')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/header/div/div/div[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://finance.walla.co.il')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'כסף')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6d41bd7-4b68-4812-83c8-669108ffff57",
+      "comment": "",
+      "command": "click",
+      "target": "id=skipBtn_138374533016",
+      "targets": [
+        ["id=skipBtn_138374533016", "id"],
+        ["css=#skipBtn_138374533016", "css:finder"],
+        ["xpath=//img[contains(@src,'https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKDLh7jO1QEQARgBMgjd3Q7oIGQHKg')]", "xpath:img"],
+        ["xpath=//img[@id='skipBtn_138374533016']", "xpath:attributes"],
+        ["xpath=//div[@id='prestitialHeader_138374533016']/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ef26c77-4669-4054-8ff8-6c388a21aadd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=בריאות",
+      "targets": [
+        ["linkText=בריאות", "linkText"],
+        ["css=li:nth-child(8) > .color-8", "css:finder"],
+        ["xpath=(//a[contains(text(),'בריאות')])[2]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/header[2]/nav/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://healthy.walla.co.il/')])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "637215ec-f16f-4667-8980-e567be603571",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=חדשות",
+      "targets": [
+        ["linkText=חדשות", "linkText"],
+        ["css=li:nth-child(1) > .color-1", "css:finder"],
+        ["xpath=(//a[contains(text(),'חדשות')])[2]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/header[2]/nav/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://news.walla.co.il')])[4]", "xpath:href"],
+        ["xpath=//nav/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23491507-8e98-4aba-ad67-9ef944cbc7da",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=מבזקים",
+      "targets": [
+        ["linkText=מבזקים", "linkText"],
+        ["css=.level-0:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'מבזקים')])[2]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/header[2]/nav[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/breaking')])[2]", "xpath:href"],
+        ["xpath=//nav[2]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b051848-769d-4152-80a0-43ab97cc0475",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=מבזקים",
+      "targets": [
+        ["linkText=מבזקים", "linkText"],
+        ["css=.level-0:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'מבזקים')])[2]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/header[2]/nav[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/breaking')])[2]", "xpath:href"],
+        ["xpath=//nav[2]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc9a5e07-0821-4ade-9804-572a75825315",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=קורונה",
+      "targets": [
+        ["linkText=קורונה", "linkText"],
+        ["css=.level-0:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'קורונה')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/header[2]/nav[2]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/category/12837')]", "xpath:href"],
+        ["xpath=//nav[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'קורונה')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b40882b9-f8b5-4e62-8151-2cd333e721d6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.desktop-16-9 > img",
+      "targets": [
+        ["css=.desktop-16-9 > img", "css:finder"],
+        ["xpath=//img[@alt='קריסת עץ בכרמיאל 21 בדצמבר 2021. דוברות משטרת ישראל']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/section[3]/section[2]/a/article/figure/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a046f488-5824-4831-8c37-07bc47c356d1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.desktop-16-9 > img",
+      "targets": [
+        ["css=.desktop-16-9 > img", "css:finder"],
+        ["xpath=//img[@alt='קריסת עץ בכרמיאל 21 בדצמבר 2021. דוברות משטרת ישראל']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/section[3]/section[2]/a/article/figure/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "242c6008-a164-4e8e-bccd-07ae30f3f1c3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mobile-vertical > .css-7r3on",
+      "targets": [
+        ["css=.mobile-vertical > .css-7r3on", "css:finder"],
+        ["xpath=//div[@id='root']/div/section[3]/section[2]/a/article/figure", "xpath:idRelative"],
+        ["xpath=//article/figure", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7dc0c91-7d42-4321-b34e-49cf149461a2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mobile-vertical > .css-7r3on",
+      "targets": [
+        ["css=.mobile-vertical > .css-7r3on", "css:finder"],
+        ["xpath=//div[@id='root']/div/section[3]/section[2]/a/article/figure", "xpath:idRelative"],
+        ["xpath=//article/figure", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dfa7a9a5-b9a1-4ca7-8736-4a550c22ab56",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["af39cfee-9f38-46fe-9eab-f6df524639b2"]
+  }],
+  "urls": ["https://www.walla.co.il/"],
+  "plugins": []
+}
